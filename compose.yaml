@@ -1,5 +1,5 @@
 services:
   web:
-    build: .
+    image: rishu987/jenkinsproject:latest
     ports:
       - "80:80"
